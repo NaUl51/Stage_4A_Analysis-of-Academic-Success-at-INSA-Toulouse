@@ -1,0 +1,22 @@
+# Data files — excluded for student privacy (GDPR compliance)
+*.xlsx
+*.csv
+data/
+
+# Survey instrument — contains raw survey structure
+reports/survey_questionnaire.pdf
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Incomplete / unused notebooks
+Code_Python.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.env
